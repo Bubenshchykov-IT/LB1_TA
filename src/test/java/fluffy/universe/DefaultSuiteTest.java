@@ -61,7 +61,7 @@ public class DefaultSuiteTest {
     driver.findElement(By.id("sign-in__email")).click();
     driver.findElement(By.id("sign-in__email")).sendKeys("danbuben2000@gmail.com");
     driver.findElement(By.id("sign-in__password")).click();
-    driver.findElement(By.id("sign-in__password")).sendKeys("10052000Dan");
+    driver.findElement(By.id("sign-in__password")).sendKeys("10052000Dan!");
     driver.findElement(By.id("sign-in__password")).sendKeys(Keys.ENTER);
     driver.findElement(By.cssSelector(".card:nth-child(2) > .card__button")).click();
   }

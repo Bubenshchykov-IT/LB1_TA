@@ -42,7 +42,7 @@ public class SuccessfulLoginTest {
     driver.findElement(By.id("sign-in__email")).click();
     driver.findElement(By.id("sign-in__password")).click();
     driver.findElement(By.id("sign-in__email")).sendKeys("danbuben2000@gmail.com");
-    driver.findElement(By.id("sign-in__password")).sendKeys("10052000Dan");
+    driver.findElement(By.id("sign-in__password")).sendKeys("10052000Dan!");
     driver.findElement(By.cssSelector(".form__button")).click();
     assertThat(driver.getTitle(), is("Home | Universe"));
   }
